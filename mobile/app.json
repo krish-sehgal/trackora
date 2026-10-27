@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Trackora",
+    "slug": "trackora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Trackora to record road clips for pothole detection.",
+          "recordAudioAndroid": false
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "android": {
+      "package": "com.trackora.mobile"
+    },
+    "ios": {
+      "bundleIdentifier": "com.trackora.mobile"
+    }
+  }
+}
